@@ -1,15 +1,18 @@
 import React from 'react';
-import {Container, Row, Col} from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap'
+import AuthForm from '../components/AuthForm'
+import InputComponent from '../components/InputComponent'
 const Auth = props => {
     return (
         <Container className='vh-100'>
             <Row className='justify-content-center vh-100'>
                 <Col xs='6' className='d-flex align-items-center'>
-                    <div className='w-100 text-center'>AUTH FORM</div>
+                    {/* <AuthForm /> */}
+                    <InputComponent title="Hello!"/>
                 </Col>
             </Row>
         </Container>
-        
+
     )
 }
 
